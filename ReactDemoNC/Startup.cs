@@ -59,9 +59,9 @@ namespace ReactDemoNC
                 // add all the necessary JavaScript files here. This includes
                 // your components as well as all of their dependencies.
                 // See http://reactjs.net/ for more information. Example:
-                //config
-                //  .AddScript("~/js/First.jsx")
-                //  .AddScript("~/js/Second.jsx");
+                config
+                  .AddScript("~/js/remarkable.min.js")
+                  .AddScript("~/js/tutorial.jsx");
 
                 // If you use an external build too (for example, Babel, Webpack,
                 // Browserify or Gulp), you can improve performance by disabling
